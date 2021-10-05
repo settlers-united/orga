@@ -12,4 +12,4 @@ jobs:
         with:
           project: Settlers United  Public Roadmap
           column: To Do
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
