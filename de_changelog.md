@@ -3,7 +3,7 @@
 - Lobby: Spieleübersicht wurde um eine "Teams"-Spalte erweitert.
 - Lobby: Verbessertes Nicknamen Handling in Verbindung mit Discord (in Entwicklung). Nicknamen werden In-Game immer auf den Discord Server Nick gesetzt. Erstmalige Nachfrage bei Siedler III und Siedler IV wenn sich Ubisoft, InGame oder Discordnamen unterscheiden.
 - S3: Die Spielgeschwindigkeit lässt sich im Singleplayer oder im Replay mit F1-F3 anpassen.
-- S4: Implementiert einen Testbranch für UBO.
+- S4: Implementiert einen Testbranch für UBO:
 ```
 UBO Alpha 3.0.0 (Testbranch)
 
@@ -36,3 +36,36 @@ Trojaner:
 - S3: Replay Dateien lassen sich jetzt auch im Windows Explorer mit "Öffnet mit Settlers United" korrekt starten.
 - S4: Sprachauswahl im Launcher für Französisch und Spanisch korrigiert.
 
+## 0.9.43 (16.01.2022)
+### Fixed
+- Lobby: Performance Updates, wenn eine große Zahl von Lobbies offen ist.
+- S3: Fixt einen Crash beim Spielstart der unter bestimmten Umständen auftreten konnte.
+- S3: Replays funktionieren in den meisten Fällen jetzt auch für Spiele, die von einem Save fortgesetzt wurden; in manchen Fällen können noch Desyncs beim Replay anschauen auftreten.
+
+## 0.9.42 (15.01.2022)
+### Fixed
+- S4: Verbessert die Zuverlässigkeit beim Download, Installation und Deinstallation des HD-Patches. 
+- S4: Fehlerhafte HD-Patch Installationen werden zuverlässiger erkannt und eine Neuinstallation durchgeführt.
+
+## 0.9.41 (14.01.2022)
+### Added
+- S3: Implementiert ein Replay-Feature für Siedler 3 Spiele. Diese können in der Lobby unter Statistiken "📈" aufgerufen werden. Du siehst die ganze Karte und kannst auch die gegnerischen Spieler beobachten und das Replay durch Drücken von F12 vorgespulen.
+- S4: Implementiert die Open-Beta des HD-Patches für Siedler IV (von @WizzardMaker | Jonas).
+Was ist der HD-Patch?
+Alles Wichtige zum HD-Patch findest du hier https://settlers4-hd.com/
+Aktivierung?
+Sobald du Siedler IV das nächste mal startest kannst du den HD-Patch in dem sich öffnenden Fenster aktivieren
+Du kannst aber jederzeit in Settlers United in die "Einstellungen" gehen und dort auf den Reiter "Grafik". Dort findest du die Option "HD-Patch (Beta)" wo du den HD-Patch aktivieren oder auch wieder deaktivieren kannst.
+Download?
+Download startet erst wenn Siedler IV gestartet wird und kann einige Zeit dauern! Insbesondere wenn sehr viele den HD-Patch Downloaden kurz nach dem Release.
+Vorrausetzungen?
+Findest du direkt auf der Webseite - https://settlers4-hd.com/#downloads
+Bekannte Probleme?
+ Findest du direkt auf der Webseite - https://settlers4-hd.com/changelog.html
+
+### Fixed
+- S3: Die Game Settings beim Laden eines Saves werden jetzt korrekt angezeigt.
+- S3: Behebt einen Fehler, wodurch das Auto-Save deaktiviert wurde, falls der Host das Spiel verlassen hat.
+- S4: Das Schwertkämpfer Level 3 Icon des Kasernenmenüs der Maya/Wikinger (zusätzlich zum bereits gefixten Römer-Icon) wurde korrigiert (von MakusieQ).
+- S4: Das verschobene "Erstellen" Icon auf dem Mehrspielerscreen wurde korrigiert (von MakusieQ).
+- S4: Verbessert die FPS wenn der HD-Patch verwendet wird in den meisten Fällen deutlich (von @WizzardMaker | Jonas). 
