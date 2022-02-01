@@ -73,18 +73,18 @@ Bekannte Probleme?
 
 ## 0.9.40 (10.01.2022)
 ### Fixed
--S3: Behebt einen Fehler mit Kampangenfreischaltungen.
--S4: Behebt einen Fehler bei der Übertragung von Lobbydaten nachdem ein Save geladen wurde (HG??-Fehler). 
--S4: Behebt einen Fehler bei der Übertragung von Lobbydaten nachdem ein Save geladen wurde (In-Game-Time). 
--S4: Behebt einen Fehler bei der Übertragung der Statistikdaten.
--S4: Verbesserungen beim Installationsprozess der Zoom- und Hotkey-Mods.
+- S3: Behebt einen Fehler mit Kampangenfreischaltungen.
+- S4: Behebt einen Fehler bei der Übertragung von Lobbydaten nachdem ein Save geladen wurde (HG??-Fehler). 
+- S4: Behebt einen Fehler bei der Übertragung von Lobbydaten nachdem ein Save geladen wurde (In-Game-Time). 
+- S4: Behebt einen Fehler bei der Übertragung der Statistikdaten.
+- S4: Verbesserungen beim Installationsprozess der Zoom- und Hotkey-Mods.
 
 ## 0.9.39 (08.01.2022)
 ### Added
 - S3 und S4: Verbesserungen an der API für die Matches um auch den zeitlichen Verlauf einer Partie zu analysieren.
 ### Fixed
--S3: Behebt einen Fehler das die Anzahl der Spieler in einer Siedler III Lobby nicht den tatsächlichen Spieleranzahlen entsprach.
--S3 und S4: Behebt einen Fehler bei der Übertragung der Statistikdaten. 
+- S3: Behebt einen Fehler das die Anzahl der Spieler in einer Siedler III Lobby nicht den tatsächlichen Spieleranzahlen entsprach.
+- S3 und S4: Behebt einen Fehler bei der Übertragung der Statistikdaten. 
 
 ## 0.9.35 (28.12.2021)
 ### Added
@@ -98,23 +98,61 @@ Anpassungen an Römischen Kampfzaubern:
 Schildzauber dauert nun nur noch 40 Sekunden statt 60 Sekunden. Außerdem betrifft der Schildzauber nun (wie in 2.9.0) wieder 20 Targets statt 16.
 ```
 ### Fixed
--S3: Behebt einen Fehler, durch den Kriegsmaschinen während der Friedenszeit nirgendwo angegriffen werden konnten
--S3: Behebt einen Fehler mit einem Bugfix, die dazu führen konnte, dass Siedler stecken blieben, wenn der Bugfix aktiv war wenn ein Farmer, Winzer, Förster und Reisbauer (unter anderem) nicht aus ihrem Gebäude gekommen wäre, wenn auf dem aktuellen Anpflanzbereich ein Siedler stand.
--S4: Behebt einen Fehler, durch den der Kartenname nicht in die Spielstatistik aufgenommen wurde.
--S4: Behebt einen Fehler wodurch die Sounds nicht in der besten Qualität abgespielt wurden. (Danke an @iTrash für das Melden und Finden der entsprechenden Stelle - wir hoffen das es damit nicht zu Problemen bei der Soundwiedergabe auf einigen Systemen kommt).
+- S3: Behebt einen Fehler, durch den Kriegsmaschinen während der Friedenszeit nirgendwo angegriffen werden konnten
+- S3: Behebt einen Fehler mit einem Bugfix, die dazu führen konnte, dass Siedler stecken blieben, wenn der Bugfix aktiv war wenn ein Farmer, Winzer, Förster und Reisbauer (unter anderem) nicht aus ihrem Gebäude gekommen wäre, wenn auf dem aktuellen Anpflanzbereich ein Siedler stand.
+- S4: Behebt einen Fehler, durch den der Kartenname nicht in die Spielstatistik aufgenommen wurde.
+- S4: Behebt einen Fehler wodurch die Sounds nicht in der besten Qualität abgespielt wurden. (Danke an @iTrash für das Melden und Finden der entsprechenden Stelle - wir hoffen das es damit nicht zu Problemen bei der Soundwiedergabe auf einigen Systemen kommt).
 
 ## 0.9.34 (11.12.2021)
 ### Added
--S3: Nur bei "New Balance" - Behebt einen Fehler das (unter anderem) Farmer, Winzer, Förster und Reisbauer nicht aus ihrem Gebäude kommen wenn auf dem aktuellen Anpflanzbereich ein Siedler steht.
--S3: Nur bei "New Balance" - Geologen arbeiten nun wie Pioniere und sind nicht auf einen kleinen Arbeitsbereich beschränkt.
--S4: Turnierkartensupport für das "The Settlers 4 2v2 Tournament 2022"
+- S3: Nur bei "New Balance" - Behebt einen Fehler das (unter anderem) Farmer, Winzer, Förster und Reisbauer nicht aus ihrem Gebäude kommen wenn auf dem aktuellen Anpflanzbereich ein Siedler steht.
+- S3: Nur bei "New Balance" - Geologen arbeiten nun wie Pioniere und sind nicht auf einen kleinen Arbeitsbereich beschränkt.
+- S4: Turnierkartensupport für das "The Settlers 4 2v2 Tournament 2022"
 ```
 Unter Einstellungen "⚙️" - Settlers IV - Tool findest du diese Option. Diese Option öffnet die Benutzeroberfläche zum Freischalten der Turnierkarten. 
 ```
--S4: HD-Patch Support Implementiert
+- S4: HD-Patch Support Implementiert
 ```
 Der kommende HD-Patch von WizzardMaker wird hiermit vollständig unterstützt. Der Download kann somit zukünftig auch direkt via Settlers United erfolgen.
 ```
 ### Fixed
--S4: Fixt einen Fehler wenn mehr als 9 Gebäude auf Priorität stehen (bekannt als Priobug  - bestehende Spielstände sind weiterhin betroffen).
--S4: Räumt das Installationsverzeichnis von Siedler IV etwas auf (entfernt von Ubisoft unnötig ausgelieferte fehlerhafte Dateien und fügt den Changelog der Settlers IV History Edition hinzu).
+- S4: Fixt einen Fehler wenn mehr als 9 Gebäude auf Priorität stehen (bekannt als Priobug  - bestehende Spielstände sind weiterhin betroffen).
+- S4: Räumt das Installationsverzeichnis von Siedler IV etwas auf (entfernt von Ubisoft unnötig ausgelieferte fehlerhafte Dateien und fügt den Changelog der Settlers IV History Edition hinzu).
+
+## 0.9.33 (07.12.2021)
+### Added
+- S4: Gleiche Zufallsvölker je Team
+```
+Jedes Volk erhält die gleichen Zufallsvölker. Zum Beispiel haben beide Teams 2 Römer, 1 Maya oder beide Teams 3 Wikinger. Bei gespiegelten Karten erhält jeweils die gleiche Position im gegnerischen Team das gleiche Zufallsvolk. Werden die Teams so eingestellt, dass es keine gleichen Positionen im Gegner Team gibt, wird diese Funktion nicht unterstützt.
+```
+- S4: Anzeige der Spielzeit in der Lobby
+```
+Die Spielzeit eines laufenden Siedler IV Spieles kann durch das Bewegen der Maus auf das Statussymbol "🎮" im Tooltip angezeigt werden.
+```
+### Fixed
+- S3: Fehler beim Anzeigen der "Spieler zerstört" Nachricht behoben
+- S3: Verhinderung der Meldung "Spieler zerstört" beim Zuschauerplätzen (beim Spielstart)
+- S4: Behebt einen Fehler das die Endstatistik um einige Sekunden von der tatsächlichen Spielzeit abweichen konnte.
+- S4: Behebt einen Fehler das der Zufallsgenerator nicht unter Tools verfügbar war.
+- S4: Behebt einen Fehler bei den Ingametexten (danke an @UltimateSpinDash)
+```
+- Produktivität von Munitionsmanufakturen und ihren Gegenstücken ergänzt.
+- Tooltip zur Völkerauswahl in der Lobby abgekürzt.
+```
+
+## 0.9.30 (05.12.2021)
+### Added
+- S3: Beobachter Modus: Unterschiedliche Farben für Teams auf der Minimap im Beobachtermodus.
+- S3: Die verstrichene In-Game Zeit wird nun als Tooltip in der Lobby Angezeigt.
+### Fixed
+- S3: Die meisten Verbindungsfehler beim Beitreten und Hosten von S3-Spielen sollten nun behoben sein.
+- S3: Behebt einen Fehler das UPnP im Router deaktiviert werden musste um Online zu spielen.
+- S3: Behebt einen Fehler bei der Erkennung von S3 GOG-Editionen und Gold-Edition-Installationen ohne Save Ordner.
+- S3: Verhinderung der Meldung "Spieler zerstört" beim Zuschauerplätzen (beim Spielstart)
+- S4: Mod-API Update auf Version 1.0.0 (API Anpassungen für den kommenden HD-Patch von @WizzardMaker | Jonas)
+- S4: Zoom-Mod Update auf Version 2.0.0
+- S4: Hotkey-Mod Update auf Version 2.0.0  (von @WizzardMaker | Jonas und @kdsystem1337)
+```
+- Die Zierobjekte werden nun in der richtigen Reihenfolge durchlaufen wenn diese via Hotkey platziert werden (sowohl vorwärts als auch rückwärts).
+- Die Zierobjekte starten nun zu Beginn einer neuen Partie oder nach einem Neustart der Anwendung immer beim ersten Zierobjekt.
+```
