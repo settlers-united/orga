@@ -322,7 +322,7 @@ Game Modi können vom Lobby Host im Spiel angeschaltet werden. Standardmäßig, 
 - Gleiche Zufallsvölker je Team (Jedes Team erhält die gleichen Zufallsvölker) (von JHNP)
 - Anpassung der Spielgeschwindigkeit (von Sc0uty)
 - Balancing: Community Patch (vom CP-Team) & Ultimate Overhaul Balancing (von UltimateSpinDash) - siehe angepinnte Nachrichten
-### Neue Spielsteuerungseinstellungen (von JHNP)
+#### Neue Spielsteuerungseinstellungen (von JHNP)
 Fügt zwei neue Spielsteuerungseinstellungen für Priester hinzu, die jeder für sich aktivieren kann, um die Einheitensteuerung feizujustiern.
 - Ausschalten der Auswahl von Priestern als Teil von militärischen Einheitengruppen: Wenn Soldaten ausgewählt werden, werden Priester nicht mehr automatisch mit ausgewählt. Stattdessen müssen diese explizit einzeln angeklickt werden oder über eine Einheitengruppe (1-9) angesprochen werden.
 - Automatische Zauberabwahl nach dem Wirken: Wurde ein Zauber gewirkt, wird der Zauber automatisch abgewählt, so dass er nicht versehentlich mehrfach gewirkt wird.
