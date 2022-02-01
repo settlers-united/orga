@@ -51,6 +51,7 @@ Trojaner:
 ### Added
 - S3: Implementiert ein Replay-Feature für Siedler 3 Spiele. Diese können in der Lobby unter Statistiken "📈" aufgerufen werden. Du siehst die ganze Karte und kannst auch die gegnerischen Spieler beobachten und das Replay durch Drücken von F12 vorgespulen.
 - S4: Implementiert die Open-Beta des HD-Patches für Siedler IV (von @WizzardMaker | Jonas).
+```
 Was ist der HD-Patch?
 Alles Wichtige zum HD-Patch findest du hier https://settlers4-hd.com/
 Aktivierung?
@@ -62,10 +63,58 @@ Vorrausetzungen?
 Findest du direkt auf der Webseite - https://settlers4-hd.com/#downloads
 Bekannte Probleme?
  Findest du direkt auf der Webseite - https://settlers4-hd.com/changelog.html
-
+```
 ### Fixed
 - S3: Die Game Settings beim Laden eines Saves werden jetzt korrekt angezeigt.
 - S3: Behebt einen Fehler, wodurch das Auto-Save deaktiviert wurde, falls der Host das Spiel verlassen hat.
 - S4: Das Schwertkämpfer Level 3 Icon des Kasernenmenüs der Maya/Wikinger (zusätzlich zum bereits gefixten Römer-Icon) wurde korrigiert (von MakusieQ).
 - S4: Das verschobene "Erstellen" Icon auf dem Mehrspielerscreen wurde korrigiert (von MakusieQ).
 - S4: Verbessert die FPS wenn der HD-Patch verwendet wird in den meisten Fällen deutlich (von @WizzardMaker | Jonas). 
+
+## 0.9.40 (10.01.2022)
+### Fixed
+-S3: Behebt einen Fehler mit Kampangenfreischaltungen.
+-S4: Behebt einen Fehler bei der Übertragung von Lobbydaten nachdem ein Save geladen wurde (HG??-Fehler). 
+-S4: Behebt einen Fehler bei der Übertragung von Lobbydaten nachdem ein Save geladen wurde (In-Game-Time). 
+-S4: Behebt einen Fehler bei der Übertragung der Statistikdaten.
+-S4: Verbesserungen beim Installationsprozess der Zoom- und Hotkey-Mods.
+
+## 0.9.39 (08.01.2022)
+### Added
+- S3 und S4: Verbesserungen an der API für die Matches um auch den zeitlichen Verlauf einer Partie zu analysieren.
+### Fixed
+-S3: Behebt einen Fehler das die Anzahl der Spieler in einer Siedler III Lobby nicht den tatsächlichen Spieleranzahlen entsprach.
+-S3 und S4: Behebt einen Fehler bei der Übertragung der Statistikdaten. 
+
+## 0.9.35 (28.12.2021)
+### Added
+- S3: Fügt einige Einstellungen für die Einheitensteuerung hinzu, um die Benutzerfreundlichkeit beim Wechsel zwischen den Spielen zu verbessern.
+```
+Diese Einstellung ist für Spieler interessant, die hauptsächlich Siedler IV spielen und nur hin und wieder Siedler III spielen. Es verändert die Einheitensteuerung, sodass sie ähnlich zu der in Siedler IV verwendeten Steuerung funktioniert. Zum Beispiel wird das Verhalten von 'STRG' und 'ALT' beim Senden von Einheiten vertauscht und Spezialisten fangen am Zielpunkt zu arbeiten an, wenn sie ohne 'ALT' gesendet wurden.
+```
+- S4: Implementiert UBO (UltimateOverhaul Balancing von @UltimateSpinDash) - Alpha 2.9.2
+```
+Anpassungen an Römischen Kampfzaubern:
+Schildzauber dauert nun nur noch 40 Sekunden statt 60 Sekunden. Außerdem betrifft der Schildzauber nun (wie in 2.9.0) wieder 20 Targets statt 16.
+```
+### Fixed
+-S3: Behebt einen Fehler, durch den Kriegsmaschinen während der Friedenszeit nirgendwo angegriffen werden konnten
+-S3: Behebt einen Fehler mit einem Bugfix, die dazu führen konnte, dass Siedler stecken blieben, wenn der Bugfix aktiv war wenn ein Farmer, Winzer, Förster und Reisbauer (unter anderem) nicht aus ihrem Gebäude gekommen wäre, wenn auf dem aktuellen Anpflanzbereich ein Siedler stand.
+-S4: Behebt einen Fehler, durch den der Kartenname nicht in die Spielstatistik aufgenommen wurde.
+-S4: Behebt einen Fehler wodurch die Sounds nicht in der besten Qualität abgespielt wurden. (Danke an @iTrash für das Melden und Finden der entsprechenden Stelle - wir hoffen das es damit nicht zu Problemen bei der Soundwiedergabe auf einigen Systemen kommt).
+
+## 0.9.34 (11.12.2021)
+### Added
+-S3: Nur bei "New Balance" - Behebt einen Fehler das (unter anderem) Farmer, Winzer, Förster und Reisbauer nicht aus ihrem Gebäude kommen wenn auf dem aktuellen Anpflanzbereich ein Siedler steht.
+-S3: Nur bei "New Balance" - Geologen arbeiten nun wie Pioniere und sind nicht auf einen kleinen Arbeitsbereich beschränkt.
+-S4: Turnierkartensupport für das "The Settlers 4 2v2 Tournament 2022"
+```
+Unter Einstellungen "⚙️" - Settlers IV - Tool findest du diese Option. Diese Option öffnet die Benutzeroberfläche zum Freischalten der Turnierkarten. 
+```
+-S4: HD-Patch Support Implementiert
+```
+Der kommende HD-Patch von WizzardMaker wird hiermit vollständig unterstützt. Der Download kann somit zukünftig auch direkt via Settlers United erfolgen.
+```
+### Fixed
+-S4: Fixt einen Fehler wenn mehr als 9 Gebäude auf Priorität stehen (bekannt als Priobug  - bestehende Spielstände sind weiterhin betroffen).
+-S4: Räumt das Installationsverzeichnis von Siedler IV etwas auf (entfernt von Ubisoft unnötig ausgelieferte fehlerhafte Dateien und fügt den Changelog der Settlers IV History Edition hinzu).
