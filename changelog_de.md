@@ -156,3 +156,178 @@ Die Spielzeit eines laufenden Siedler IV Spieles kann durch das Bewegen der Maus
 - Die Zierobjekte werden nun in der richtigen Reihenfolge durchlaufen wenn diese via Hotkey platziert werden (sowohl vorwärts als auch rückwärts).
 - Die Zierobjekte starten nun zu Beginn einer neuen Partie oder nach einem Neustart der Anwendung immer beim ersten Zierobjekt.
 ```
+
+## 0.9.29 (28.11.2021)
+### Added
+- Lobby: Es ist nun möglich auch unter älteren 32 Bit Windows Versionen die Settlers United Anwendung zu benutzen.
+- Lobby: S3 Einstellungen - Option für Musik deaktivieren oder auf das gespielte Volk einzustellen.
+- Lobby: S4 Einstellungen - Alle Optionen findest du nun direkt in Settlers United, dabei musst du einmalig die Einstellungen neu einstellen.
+- S3: Kartenszenario - Team vs. Team Positionierung: Bei gespiegelten Random Karten gibt es jetzt die Option die Teams jeweils auf einer Seite der Spiegelachse zusammen zu positionieren.
+- S3: Feature Zuschauerteam: Das erste oder letzte Team lässt sich als Zuschauerteam deklarieren. Es kann die ganze Karte sehen und nimmt nicht selbst am Spiel teil. Es müssen hierfür mindestens drei Teams auf der Karte existieren.
+### Fixed
+- Lobby: Behebt einen Fehler das die Installation von Microsoft Visual C++ 2015-2022 Redistributable bei der Installation nicht richtig angezeigt wurde (Es wird nun ein Fortschrittsbalken angezeigt)
+- Lobby: Behebt einen Fehler das ausstehende Windows Updates die Installation verhinderten.
+- S3: Bei New Random Balancing erhalten Asiaten jetzt auch auf gespiegelten Karten die Chance auf einen Startsumpf.
+- S3: Einstellungen waren unbeabsichtigt nicht verfügbar wenn keine Installation von Siedler IV vorhanden war.
+- S4: Editor+ sollte nun wieder funktionieren.
+- S4: Neuer Bugfix Autospeichern findet nun automatisch alle 4 Minuten statt (Erinnerung unter Siedler III  wie gewohnt alle 2 Minuten).
+- S4: Neuer Bugfix Behebt ein Problem mit dem Trojanischen Marktplatz, dieser forderte die Bauarbeiter außerhalb der Baustelle an was dazu führen konnte das dieser nicht gebaut werden konnte. (Danke an @rob997)
+
+## 0.9.28 (25.11.2021)
+### Changed
+- Lobby: Neustrukturierung der Einstellungen in Settlers United (Einige weitere Einstellungen folgen mit dem nächsten Update)
+### Fixed
+- S3: Der neue Chat sollte nun wie gewohnt funktionieren.
+- S3: Behebt einen Fehler das S3 GOG und S3 GE nicht gestartet werden können.
+- S3: Behebt einen Fehler das S3 Verzeichnisse nicht gespeichert werden konnten.
+- S4: Behebt einen Fehler mit Plugins beim Upgraden von einem vorherigem Launcher
+- S4: BlueByte Standardkarten sind nun immer sichtbar.
+- S4: Der FE "Tiling: Out of Links" sollte nun nicht mehr auftreten.
+
+## 0.9.27 (21.11.2021)
+### Added
+- S3: Neu  Zoom  (reinzoomen, rauszoomen) (abschaltbar in den Einstellungen)
+- S3: Neu neuer Chat  (HD, Scrollfähig) (immer bei Zoom aktiviert, abschaltbar in den Einstellungen)
+- S3: Neu Möglichkeit der Positionierung der Spielzeit von unten rechts nach oben rechts (aktivierbar in den Einstellungen)
+- S3: Neu  zusätzliche Hotkeys  (analog zu bestehenden Standard-Hotkeys aus S4) (abschaltbar in den Einstellungen)
+```
+zusätzliche Hotkeys
+ESC = Einheiten und Gebäude abwählen oder Spiel speichern/ Beenden-Menü öffnen
+POS1 / HOME = Kamera auf den Startpunkt setzen und den Zoom auf Standard zurücksetzen (100%)
+H = Kamera auf den Startpunkt setzen
+N = Zoom auf Standard zurücksetzen (100%)
+F6 = Spielermenü öffnen
+SHIFT = Beim platzieren von Gebäuden bleibt das Gebäude ausgewählt (Zusätzlich)
+```
+### Fixed
+- Lobby: Die Installation und Updates sollten in den meisten Fällen nun ohne einen Rechnerneustart funktionieren.
+- Lobby: Es werden zuerst offene Spiele angezeigt (erst S3 - dann S4). Es werden anschließend laufende Spiele angezeigt (erst S3 - dann S4). Außerdem werden nun auch Saves bei S4 hervorgehoben durch "Save: Mapname (Settings)"
+- Lobby: Die derzeit ausgewählte Statistik wird optisch hervorgehoben. (Lokale) Gespeicherte Statistiken können nun gelöscht werden.
+- S3: Behebt einen Fehler der ALT+TAB und die Windows Taste blockierte
+- S4: Behebt einen Fehler beim Umwandlungszauber von Waren (bspw. Fisch zu Stein oder Stein zu Eisen)
+- S4: Behebt einen Fehler das beliebige Spieleinstellungen in der Save-Lobby angezeigt werden.
+- S4: Sprache und Anzeigemodus können in den Einstellungen ausgewählt werden (analog zu Siedler III)
+
+## 0.9.26 (16.11.2021)
+### Added
+- Lobby: Differenzielle Updates (ab dieser Version sollte das Updaten deutlich schneller gehen, es werden nur noch die geänderten Inhalte heruntergeladen).
+- S4: Implementiert UBO (UltimateOverhaul Balancing) - Alpha 2.9.1
+```
+Römer Anpassungen
+- Schildzauber betrifft nur noch 16 targets statt 20
+- Barbaren Bekehren kostet nur noch 30->120 statt 35->140, hat aber Reichweite 8 statt 4, sodass man zuverlässig die 6 targets  trifft
+- Sanis haben nur noch 12/18/24 heal auf T1 bis T3 statt 18/24/30
+```
+### Fixed
+- S4: Neues Spiel erstellen - Singleplayer "Buttons und Aufbau" angepasst.
+- S3 und S4: Firewall Regeln optimiert
+
+## 0.9.25 (15.11.2021)
+### Fixed
+- S3: funktioniert jetzt korrekt mit unterschiedlichen DPI Einstellungen (bspw. 125%, 150% oder auch 200%) (gemeldet von @Roxy und @v0lt669)
+- S3: Beim Hosten einer S3 Setmap lassen sich jetzt Zufallspositionen aktivieren/deaktivieren (gemeldet von @Greg0ree)
+- S3: Beim Window-Mode ist Auflösung in den Pre-Game Screen angepasst (Gemeldet von kdsystem1337)
+- S3: Startwaren können jetzt im der Lobby ausgewählt werden (HG/MG/LG)
+- S3: Weitere Optimierungen für den neuen S3 Netzwerkcode "New Network Code" vorgenommen (ein finaler Test steht noch aus, aber es sieht gut aus!)
+- S3: Einzelspielerkarten und Saves ab Version 0.9.25 sollten sich in den meisten Fällen wieder funktionieren. (Bei Problemen bitte alle alten Saves löschen) (Gemeldet von @Hirschilein, @mavmav und weiteren)
+
+## 0.9.24 (09.11.2021)
+### Added
+- Lobby: Mit dem heutigen Update wird der intrigierte Discord Client ausblendbar! Emfohlen für alle die Discord bereits installiert haben. Hierzu werdet ihr zunächst gefragt: Ob ihr den Discord Chat hier eingebettet haben wollt? Die Option "ICH BENUTZTE DIE DISCORD APP" sorgt dafür, dass das Windows Fenster Feature wieder funktioniert (sowohl verschieben als auch "Maximieren" durch an den Bildschirmrand schieben)
+### Fixed
+- S3: Es wird nun nach einen Neueinloggen der Server-Nickname verwendet (anstelle des Discord-Accountnamen)
+- S3: Es sollte nun nicht mehr zu fehlerhaften S3_Multi.exe Ersetzungen bei der GE / GOG Version kommen.
+- S3: Es sollten nun alle S3 Setmaps wieder korrekt enthalten sein.
+- S3: Es sollte mithilfe des Window (Fullscreen) Modes eine höhere Stabilität erreicht werden.
+
+## Erster Release
+### Lobby (von Knogger, JHNP,  WizzardMaker & kdsystem1337)
+- Webseite mit Twitch Streams (von Knogger)
+- Mapbase mit automatischem Map-Download für S3 & S4 für den Host und Mitspieler (von Knogger & kdsystem1337)
+- Game Integration (von JHNP)
+- Statistiken Anzeigen und Posten (auch im Spiel möglich)  (von Knogger, JHNP & kdsystem1337)
+- Icon/Logo (von WizzardMaker)
+- Einstellungen "⚙️" (von kdsystem1337)
+
+### Siedler III (Version 3.20)
+#### Generelle Verbesserungen (von JHNP)
+- Unterstützung für die S3:Gold Edition, S3:Ultimate Collection (GOG.com) und die S3:History Edition 
+- Rendering im "Vollbild (Fenstermodus)" und "Fenstermodus" möglich
+- Rendering Performance verbessert und Netzwerk-Verzögerung signifikant reduziert
+- Fügt Zoom hinzu
+#### Überarbeitungen (von JHNP)
+- Neuer Statistikdialog mit HD Grafiken, zusätzlichen Informationen und Team Statistiken
+- Neuer Chat mit Scrolling
+- Zusätzliche Hotkeys
+#### Bug Fixes (von JHNP)
+- Fixt einen Bug, wodurch Objekte ab einer gewissen Höhe nicht mehr dargestellt wurden
+- Fixt einige Game Crashes (Rendering bezogen)
+- Fixt einige Amazon Gebäudebugs, bei denen Bauarbeiter feststeckten und neues Baumaterial nicht mehr angeliefert werden konnte (Fischerhütte & großer Turm)
+- Fixt einen Bug, wodurch das Spiel beim Drücken von ALT+F4 weiterhin im Hintergrund aktiv war
+-  Nur bei GameMode "New Random Balancing" aktiv
+```
+Behebt einen Fehler das (unter anderem) Farmer, Winzer, Förster und Reisbauer nicht aus ihrem Gebäude kommen wenn auf dem aktuellen Anpflanzbereich ein Siedler steht.
+Geologen arbeiten nun wie Pioniere und sind nicht auf einen kleinen Arbeitsbereich beschränkt.
+```
+#### Game Modes
+Zur Erinnerung  die Optionen sind Optional und können vom Lobby Host im Spiel ausgewählt werden.
+"Transportlimit erhöhen": Dies erhöht das Transportlimit deutlich. 
+"Geschwindigkeit": Anpassung der Spielgeschwindigkeit
+"New Random Balancing" (von Suma & Senna)
+```
+Allgemeines:
+- Wahrscheinlichkeit für Teiche und Seen nahe der Kartenmitte erhöht. Die Größe der Seen variiert stark und nicht alle Seen werden über Flüsse verfügen
+Asiaten:
+- Minen sind verbessert: 20% weniger Wartezeit vor einem Minengang, 40% für Goldminen; Minenarbeiter verrichten einen zusätzlichen Minengang je verspeister Nahrung
+- Schildzauber macht nun immun gegen andere Kampfzauber (Bekehren, Bann, Bögen bestrafen, Einfrieren, Ängstigen) und hebt negative Effekte auf (Einfrieren, Ängstigen) und die Kosten sind reduziert von 20 auf 15 Mana
+- Fischzauber hat reduzierte Kosten (von 10 auf 4 Mana)
+- haben eine sehr hohe Wahrscheinlichkeit auf ein wenig Sumpf nahe ihrer Startposition
+- Kosten des kleinen Turmes sind reduziert von 3 auf 2 Bretter
+Ägypter:
+- Soldatenaufwertung der erfordert weniger Mana (L3 nach 80 statt 110 Mana)
+- Leicht erhöhte fangrate für Fischer
+
+Für weitere Details, siehe https://bit.ly/3wi9I5E
+```
+#### Kartenszenario
+"Gleiche Zufallsvölker je Team": Zufallsvölker werden so ausgelost, das jedes Team die gleichen Völker erhält.
+"Team vs. Team Positionierung": Bei gespiegelten Random Karten gibt es jetzt die Option die Teams jeweils auf einer Seite der Spiegelachse zu positionieren.
+#### Regeln
+Friedenszeit einstellen (L2 oder 35/60/90/100min)
+Diebe einstellen (ob und wenn ja wie gestohlen werden darf)
+Kriegsmaschinen deaktivieren
+#### Zuschauer
+"Zuschauerteam": Das erste oder letzte Team lässt sich als Zuschauerteam deklarieren. Es kann die ganze Karte sehen und nimmt nicht selbst am Spiel teil. Es müssen hierfür mindestens drei Teams auf der Karte existieren.
+### Siedler IV (Version 3.10)
+#### Bug Fixes (von JHNP)
+- Fixt einen Bug, bei dem die Baustelle nicht fertiggestellt wurde ("Pflöcke" Bug), oder keine Bauarbeiter zur Baustelle kamen
+- Fixt einen Bug, bei dem Planierer die Arbeit an der Baustelle nicht beendeten und somit die Bauarbeiten aufhielten
+- Fixt einen Bug, bei dem Waren manchmal nicht von gestoppten Gebäuden abtransportiert wurden
+- Fixt einen Bug, wodurch Lagerstapel unbenutzbar wurden, nachdem ein Güterumwandlungszauber verwendet wurde.
+- Fixt einen Bug, das der trojanische Marktplatz nicht zuverlässig gebaut werden konnte.
+- Fixt einen Bug, wenn mehr als 9 Gebäude auf Priorität stehen (bekannt als Priobug).
+- Fixt einen Bug, wodurch das Spiel des Hosts in der Spiellobby zum Absturz gebracht werden konnte.
+- Fixt einen Bug, der einen Fatal Error: Tiling: Out of Links produziert hat.
+- Fügt Desync-Schutz hinzu: Spieler, die nicht die gleiche S4 Version wie der Host verwenden, können sich nicht mehr auf "Bereit" setzen und erhalten einen Warnhinweis
+#### Game Integration (von JHNP)
+- Spiele werden in der Lobby angezeigt und  können von dort aus beigetreten werden.
+- Es kann Spielen, die mit der S4:History Edition erstellt wurden, beigetreten werden. In diesem Fall sind jedoch alle Bug-Fixes und sonstige Spieländerungen (Game-Modi) nicht aktiv.
+- Wenn ein Spiel mit der Settlers United Version erstellt wurde, erhalten alle S4:History Edition Nutzer einen Warnhinweis.
+#### Neue Spiel UI (von kdsystem1337)
+- Der Statistik Dialog wurde neu erstellt mit HD Grafiken, ist nun sortiert nach Punkten und enthält zusätzliche Informationen wie die Soldatenverteilung Nach Leveln oder viele weitere Wirtschaftsstatistiken.
+#### Game Modi "⚖️"
+Game Modi können vom Lobby Host im Spiel angeschaltet werden. Standardmäßig, sind keine Game-Modi aktiv, nur Bug-Fixes sind immer aktiv.
+- Anpassung des Siedlerlimits unabhängig von der Spieleranzahl (von Sc0uty)
+- Erhöhung des Transportlimits (von nyfrk & kdsystem1337)
+- Gleiche Zufallsvölker je Team (Jedes Team erhält die gleichen Zufallsvölker) (von JHNP)
+- Anpassung der Spielgeschwindigkeit (von Sc0uty)
+- Balancing: Community Patch (vom CP-Team) & Ultimate Overhaul Balancing (von UltimateSpinDash) - siehe angepinnte Nachrichten
+### Neue Spielsteuerungseinstellungen (von JHNP)
+Fügt zwei neue Spielsteuerungseinstellungen für Priester hinzu, die jeder für sich aktivieren kann, um die Einheitensteuerung feizujustiern.
+- Ausschalten der Auswahl von Priestern als Teil von militärischen Einheitengruppen: Wenn Soldaten ausgewählt werden, werden Priester nicht mehr automatisch mit ausgewählt. Stattdessen müssen diese explizit einzeln angeklickt werden oder über eine Einheitengruppe (1-9) angesprochen werden.
+- Automatische Zauberabwahl nach dem Wirken: Wurde ein Zauber gewirkt, wird der Zauber automatisch abgewählt, so dass er nicht versehentlich mehrfach gewirkt wird.
+#### Verschiedenes
+- Der Hinweiston wurde ersetzt mit dem "BING" Ton der Gold Edition (von King Jo und Adrian | akulisch)
+- Der Maya Musik Bug wurde gefixt (von UltimateSpinDash)
+- Verbesserte Tooltips (von UltimateSpinDash)
+- Das Schwertkämpfer Level 3 Icon des Kasernenmenüs der Römer/Maya/Wikinger wurde korrigiert (von MakusieQ)
