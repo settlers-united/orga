@@ -1,6 +1,6 @@
 ## 0.9.46 (06.02.2022)
 ### Added
-- S4: Implementiert einen neuen Downloader für den HD-Patch um bei kommenden Updates nur noch die geänderten Inhalte herrunterzuladen.
+- S4: Implementiert einen neuen Downloader für den HD-Patch um bei kommenden Updates nur noch die geänderten Inhalte herunterzuladen.
 
 - S4: Implementiert Fehlerbehebungen für Gebäude (von @rob997#6645)
 ```
