@@ -1,3 +1,91 @@
+## 0.9.46 (06.02.2022)
+
+### Added
+- S4: Implementiert einen neuen Downloader für den HD-Patch um bei kommenden Updates nur noch die geänderten Inhalte herrunterzuladen.
+
+- S4: Implementiert Fehlerbehebungen für Gebäude (von @rob997#6645)
+```
+Feststeckende Siedler in der Tür
+
+Römer:
+    Grainfarm
+    Healerhut
+    Smalltemple
+    Vinyard
+    Woodcutterhut
+    
+Maya:
+    Donkeyranch
+    PortC
+    Slaughterhouse
+    Smalltemple
+    PortG
+    
+Wikinger:
+    Fisherhut
+    Grainfarm
+    Healerhut
+    Sawmill
+    Slaughterhouse
+    Smalltemple
+    Smeltgold
+    Smeltiron
+    Stonemine
+    Waterworkhut
+    Weaponsmith
+    
+Trojaner:
+    Grainfarm
+    Healerhut
+    Smalltemple
+    Sulfurmine
+    Sunflowerfarmerhut
+
+--------
+Bauarbeiter kann auf eine nicht zugängliche Stelle angefordert werden
+
+Wikinger:
+    Guardtowersmall
+Trojaner:
+    Eyecatcher02
+    Goldmine
+    Marketplace
+    Residencesmall
+```
+
+- S4: Implementiert Updates für die Balance Packs
+```
+UBO Alpha 3.1.0 (Testbranch)
+
+Allgemein:
+SU-Globale Fixes wurden übernommen, um zu verhindern, dass die Türen bestimmter Gebäude von einzelnen Siedlern blockiert werden können.
+
+Römer:
+- Starten nun auf HGHG mit 8 Äxten
+
+Wikinger:
+- Das Lager sollte von der Planierzeit her nun vergleichbar mit dem der Römer sein (von 42 Planierfelder auf 30).
+- Holzfäller kosten nun ein Brett weniger, Förster eins mehr (Experimentell!)
+- Der Steinmetz macht nun zwei Sekunden weniger Pause zwischen Arbeitsgängen, um den relativ langen Weg zwischen Ablagestapel und Tür zu kompensieren.
+
+Mayas:
+- Starten nun auf HGHG mit 7 Äxten
+- Gegner bannen wurde wieder auf 20 Ziele gesetzt.
+- Obergeschoss des großen Turms noch etwas nachgebessert, sodass es mehr dem der Wikinger entspricht.
+
+Trojaner:
+- Starten nun auf HGHG mit 9 Äxten
+- Gänsezucht kostet nun 8/4 statt 8/5
+- Mühle kostet nun 5/1 statt 5/2
+- Ölpresse und Sonnenblumenfarm haben nun die für 3.0.1 vorgesehenen kosten (4/2 und 6/2 statt umgekehrt).
+```
+
+### Fixed
+- Lobby: Verbessert die Anzeige der Teamkonstellation.
+- S3: Übertragung der Settings bei Spielstart zuverlässiger gemacht, um Desyncs bei schlechter Verbindung zu verringern
+- S4: Lobby Namen dürfen nun wieder die Zeichen "-" und "_" enthalten.
+
+
 ## 0.9.45 (30.01.2022)
 ### Added
 - Lobby: Spieleübersicht wurde um eine "Teams"-Spalte erweitert.
@@ -249,7 +337,7 @@ Römer Anpassungen
 - Icon/Logo (von WizzardMaker)
 - Einstellungen "⚙️" (von kdsystem1337)
 
-### Siedler III (Version 3.20)
+### Siedler III
 #### Generelle Verbesserungen (von JHNP)
 - Unterstützung für die S3:Gold Edition, S3:Ultimate Collection (GOG.com) und die S3:History Edition 
 - Rendering im "Vollbild (Fenstermodus)" und "Fenstermodus" möglich
@@ -298,7 +386,8 @@ Diebe einstellen (ob und wenn ja wie gestohlen werden darf)
 Kriegsmaschinen deaktivieren
 #### Zuschauer
 "Zuschauerteam": Das erste oder letzte Team lässt sich als Zuschauerteam deklarieren. Es kann die ganze Karte sehen und nimmt nicht selbst am Spiel teil. Es müssen hierfür mindestens drei Teams auf der Karte existieren.
-### Siedler IV (Version 3.10)
+
+### Siedler IV
 #### Bug Fixes (von JHNP)
 - Fixt einen Bug, bei dem die Baustelle nicht fertiggestellt wurde ("Pflöcke" Bug), oder keine Bauarbeiter zur Baustelle kamen
 - Fixt einen Bug, bei dem Planierer die Arbeit an der Baustelle nicht beendeten und somit die Bauarbeiten aufhielten
