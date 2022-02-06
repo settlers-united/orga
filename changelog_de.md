@@ -1,5 +1,4 @@
 ## 0.9.46 (06.02.2022)
-
 ### Added
 - S4: Implementiert einen neuen Downloader für den HD-Patch um bei kommenden Updates nur noch die geänderten Inhalte herrunterzuladen.
 
@@ -416,7 +415,7 @@ Fügt zwei neue Spielsteuerungseinstellungen für Priester hinzu, die jeder für
 - Ausschalten der Auswahl von Priestern als Teil von militärischen Einheitengruppen: Wenn Soldaten ausgewählt werden, werden Priester nicht mehr automatisch mit ausgewählt. Stattdessen müssen diese explizit einzeln angeklickt werden oder über eine Einheitengruppe (1-9) angesprochen werden.
 - Automatische Zauberabwahl nach dem Wirken: Wurde ein Zauber gewirkt, wird der Zauber automatisch abgewählt, so dass er nicht versehentlich mehrfach gewirkt wird.
 #### Verschiedenes
-- Der Hinweiston wurde ersetzt mit dem "BING" Ton der Gold Edition (von King Jo und Adrian | akulisch)
+- Der Hinweiston wurde ersetzt mit dem "BING" Ton der Gold Edition (von King Jo und Akulisch)
 - Der Maya Musik Bug wurde gefixt (von UltimateSpinDash)
 - Verbesserte Tooltips (von UltimateSpinDash)
 - Das Schwertkämpfer Level 3 Icon des Kasernenmenüs der Römer/Maya/Wikinger wurde korrigiert (von MakusieQ)
